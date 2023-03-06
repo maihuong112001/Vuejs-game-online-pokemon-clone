@@ -34,7 +34,7 @@ export default {
 };
 </script>
 
-<style lang="css" scoped>
+<style lang="scss" scoped>
 .screen {
   width: 100%;
   height: 160vh;

@@ -79,7 +79,7 @@
     </div>
   </div>
 </template>
-<style scoped>
+<style lang="scss" scoped>
 .content-home {
   margin-top: 90px;
 }

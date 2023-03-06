@@ -26,7 +26,7 @@ export default {
   props: {
     cardsContext: {
       type: Array,
-      default: function () {
+      default: () => {
         return [];
       },
     },
@@ -93,7 +93,7 @@ const sleep = (ms) => {
 })();
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .screen {
   width: 100%;
   height: 156vh;

@@ -24,7 +24,7 @@
   </header>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .wrapper {
   --search-height: 46px;
   --search-top-spacer: 9px;

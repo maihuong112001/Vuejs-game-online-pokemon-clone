@@ -90,7 +90,7 @@ export default {
 };
 </script>
 
-<style lang="css" scoped>
+<style lang="scss" scoped>
 .card {
   display: inline-block;
   margin-right: 1rem;
