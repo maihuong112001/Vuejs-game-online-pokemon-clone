@@ -1,21 +1,21 @@
 <template>
   <div class="screen">
-    <h1>Poke Memories</h1>
+    <h1 class="mt-4">Poke Memories</h1>
     <p>Select mode to start game</p>
-    <div class="modes">
-      <button @click="onStart(16)">
+    <div class="row modes">
+      <button class="col-10 col-sm-4 col-md-5" @click="onStart(16)">
         <span>4x4</span>
         <span>Easy</span>
       </button>
-      <button @click="onStart(36)">
+      <button class="col-10 col-sm-4 col-md-5" @click="onStart(36)">
         <span>6x6</span>
         <span>Normal</span>
       </button>
-      <button @click="onStart(64)">
+      <button class="col-10 col-sm-4 col-md-5" @click="onStart(64)">
         <span>8x8</span>
         <span>Hard</span>
       </button>
-      <button @click="onStart(100)">
+      <button class="col-10 col-sm-4 col-md-5" @click="onStart(100)">
         <span>10x10</span>
         <span>Super Hard</span>
       </button>
@@ -37,15 +37,15 @@ export default {
 <style lang="css" scoped>
 .screen {
   width: 100%;
-  height: 100vh;
+  height: 160vh;
   margin-top: 62px;
   position: absolute;
   top: 0;
-  left: 0;
   z-index: 2;
+  left: 3;
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   flex-direction: column;
   background-color: var(--dark);
   color: rgb(64, 223, 91);
@@ -76,7 +76,7 @@ export default {
   display: flex;
   flex-direction: column;
   border-radius: 1rem;
-  margin: 0 1rem;
+  margin: 1rem 1.8rem;
   align-items: center;
   justify-content: center;
   cursor: pointer;

@@ -102,7 +102,6 @@ const sleep = (ms) => {
   top: 0;
   left: 0;
   z-index: 2;
-  background-color: var(--dark);
   color: var(--light);
 }
 

@@ -2,7 +2,7 @@
 <template>
   <div class="container content-home">
     <div class="row">
-      <div class="col-8">
+      <div class="col-12 col-sm-8">
         <div class="row">
           <router-link :to="{ name: 'Pokemo' }" class="col pd-0">
             <img src="../assets/images/cong-chua-keo-ngot.jpg" />
@@ -24,7 +24,7 @@
           </router-link>
         </div>
       </div>
-      <div class="col-4 p-0 sidebar">
+      <div class="col-12 col-sm-4 p-0 sidebar">
         <div class="header-side">
           <h2>Top Đấu Sĩ</h2>
         </div>

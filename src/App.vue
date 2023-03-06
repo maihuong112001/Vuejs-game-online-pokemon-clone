@@ -18,6 +18,14 @@ export default {
 </script>
 
 <style lang="css" scoped>
+* {
+  width: 100%;
+  box-sizing: border-box;
+}
+.wrapper {
+  width: 100%;
+  text-align: center;
+}
 .copyright {
   position: fixed;
   left: 50%;

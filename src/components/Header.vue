@@ -9,12 +9,12 @@
           alt="logo-game"
         />
       </a>
-      <div class="search">
-        <input placeholder="Search game and accounts" />
+      <div class="search d-none d-sm-block">
+        <input placeholder="Search game" />
       </div>
       <div class="action">
         <button class="dice-3">
-          <i class="bi bi-bell bi-icon-action"></i>
+          <i class="bi bi-bell d-none d-sm-block bi-icon-action"></i>
         </button>
         <button class="button-sign-in">
           <i class="bi bi-person-circle"></i> SIGN IN
@@ -51,7 +51,7 @@
 }
 .search {
   position: relative;
-  width: 361px;
+  width: 27%;
   height: 46px;
   padding-left: 16px;
   display: flex;
