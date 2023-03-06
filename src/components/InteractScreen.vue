@@ -1,13 +1,9 @@
 <template>
   <div class="screen">
     <div
-      class="screen__inner"
+      class="screen-inner"
       :style="{
-        width: `${
-          ((((920 - 16 * 4) / Math.sqrt(cardsContext.length) - 16) * 3) / 4 +
-            16) *
-          Math.sqrt(cardsContext.length)
-        }px`,
+        width: `${withScreenInner}px`,
       }"
     >
       <card-memmory
@@ -41,6 +37,10 @@ export default {
   data() {
     return {
       rules: [],
+      withScreenInner:
+        ((((920 - 16 * 4) / Math.sqrt(this.cardsContext.length) - 16) * 3) / 4 +
+          16) *
+        Math.sqrt(this.cardsContext.length),
     };
   },
   methods: {
@@ -105,8 +105,7 @@ const sleep = (ms) => {
   color: var(--light);
 }
 
-.screen__inner {
-  width: calc(424px);
+.screen-inner {
   display: flex;
   flex-wrap: wrap;
   margin: 2rem auto;
